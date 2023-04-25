@@ -11,6 +11,7 @@
     <modules>
         <module>spring-source</module>
         <module>factory</module>
+        <module>abstract-factory</module>
     </modules>
 
     <properties>
