@@ -2,7 +2,7 @@ package com.shuhai65;
 
 import java.util.concurrent.TimeUnit;
 
-public interface SimpleCacheService  {
+public interface SimpleCacheService {
 
     String get(final String key, int redisType);
 

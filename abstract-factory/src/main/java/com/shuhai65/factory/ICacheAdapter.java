@@ -2,7 +2,7 @@ package com.shuhai65.factory;
 
 import java.util.concurrent.TimeUnit;
 
-public interface ICacheAdapter  {
+public interface ICacheAdapter {
 
     String get(String key);
 

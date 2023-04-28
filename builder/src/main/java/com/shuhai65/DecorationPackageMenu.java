@@ -56,7 +56,7 @@ public class DecorationPackageMenu implements IMenu {
                 "房屋面积：" + area.doubleValue() + " 平米\r\n" +
                 "材料清单：\r\n");
 
-        for (Matter matter: list) {
+        for (Matter matter : list) {
             detail.append(matter.scene()).append("：").append(matter.brand()).append("、").append(matter.model()).append("、平米价格：").append(matter.price()).append(" 元。\n");
         }
 

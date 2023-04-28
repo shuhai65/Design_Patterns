@@ -64,7 +64,8 @@ public class QuestionBank implements Cloneable {
             detail.append("第").append(idx + 1).append("题：").append(choiceQuestionList.get(idx).getName()).append("\r\n");
             Map<String, String> option = choiceQuestionList.get(idx).getOption();
             for (String key : option.keySet()) {
-                detail.append(key).append("：").append(option.get(key)).append("\r\n");;
+                detail.append(key).append("：").append(option.get(key)).append("\r\n");
+                ;
             }
             detail.append("答案：").append(choiceQuestionList.get(idx).getKey()).append("\r\n\n");
         }

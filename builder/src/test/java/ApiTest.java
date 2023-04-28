@@ -3,7 +3,7 @@ import org.junit.Test;
 
 public class ApiTest {
     @Test
-    public void test_Builder(){
+    public void test_Builder() {
         Builder builder = new Builder();
 
         // 豪华欧式

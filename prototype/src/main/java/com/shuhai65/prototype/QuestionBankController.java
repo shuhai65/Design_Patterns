@@ -46,7 +46,7 @@ public class QuestionBankController {
         questionBank.append(new ChoiceQuestion("JAVA所定义的版本中不包括", map01, "D"))
                 .append(new ChoiceQuestion("下列说法正确的是", map02, "A"))
                 .append(new ChoiceQuestion("变量命名规范说法正确的是", map03, "B"))
-                .append(new ChoiceQuestion("以下()不是合法的标识符",map04, "C"))
+                .append(new ChoiceQuestion("以下()不是合法的标识符", map04, "C"))
                 .append(new ChoiceQuestion("表达式(11+3*8)/4%3的值是", map05, "D"))
                 .append(new AnswerQuestion("小红马和小黑马生的小马几条腿", "4条腿"))
                 .append(new AnswerQuestion("铁棒打头疼还是木棒打头疼", "头最疼"))

@@ -1,7 +1,6 @@
 package com.shuhai65.factory.impl;
 
 
-
 import com.shuhai65.factory.ICacheAdapter;
 import com.shuhai65.matter.IIR;
 
